@@ -6,14 +6,20 @@ body{
     margin: 1%;
 }
 .header{
-    border: 1px solid red;
+    border: 1px solid red
 }
 .content{
     border: 1px solid green;
+    position: relative;
+    float: right;
 }
 .sidebar{
-    border: 1px solid  blue;
+    border: 1px solid purple;
+    position: relative;
+    float: left; top: 40px; left: 40px;
 }
 .footer{
     border: 1px solid purple;
+    clear: both;
+
 }
