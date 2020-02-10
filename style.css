@@ -11,15 +11,16 @@ body{
 .content{
     border: 1px solid green;
     position: relative;
-    float: right;
+    width: 45%;
+    float: left;
 }
 .sidebar{
     border: 1px solid purple;
     position: relative;
-    float: left; top: 40px; left: 40px;
+    width: 45%;
+    float: right;
 }
 .footer{
     border: 1px solid purple;
     clear: both;
-
 }
